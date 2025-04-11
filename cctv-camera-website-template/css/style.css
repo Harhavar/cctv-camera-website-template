@@ -449,7 +449,30 @@
 .team-item:hover .team-social .btn {
     opacity: 1;
 }
-
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+  }
+  
+  .whatsapp-button i {
+    font-size: 20px;
+  }
+  
 
 /*** Testimonial ***/
 .testimonial-carousel {
